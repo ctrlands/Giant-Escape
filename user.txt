@@ -1,0 +1,4 @@
+获取安装依赖 pip freeze > requirements.txt
+安装依赖 pip install -r requirements.txt
+
+pip install playsound 播放声音

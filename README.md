@@ -30,4 +30,4 @@ Python3  &  Node.js
 
 `log.txt`文件里出现相关信息
 
-![库存]](https://github.com/ctrlands/Giant-Escape/blob/main/img/%E5%BA%93%E5%AD%98.png?raw=true)
+![库存](https://github.com/ctrlands/Giant-Escape/blob/main/img/%E5%BA%93%E5%AD%98.png?raw=true)

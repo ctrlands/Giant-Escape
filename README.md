@@ -1,13 +1,31 @@
-# escape
-https://e.giant.com.cn/#/
-爬取捷安特官方商城某车型库存数据
-需要自行修改的参数如下:
-user_id应该是每次使用都需要换的,查看user_id的方法
-<img width="1439" alt="image" src="https://user-images.githubusercontent.com/84185667/177126978-6a3fcada-d486-4831-aff5-a4f0ffbd7c06.png">
-'sku'也是重要的参数  代表了车的型号,颜色,size
+#### Read
 
-'province' 参数是地区的筛选条件(可以去掉),查看province参数的方式如下:
-<img width="1430" alt="image" src="https://user-images.githubusercontent.com/84185667/177128164-1b96717f-1c9d-4716-bf57-0d7cb0b82a01.png">
+该程序作为辅助查询库存余量。
 
+##### 运行环境
 
+Python3  &  Node.js
 
+##### 配置文件 config.ini
+
+![配置文件](https://github.com/ctrlands/Giant-Escape/blob/main/img/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6.png?raw=true)
+
+##### 参数获取及说明
+
+![地市级](https://github.com/ctrlands/Giant-Escape/blob/main/img/%E5%9C%B0%E7%BA%A7%E5%B8%82.png?raw=true)
+
+![sku](https://github.com/ctrlands/Giant-Escape/blob/main/img/sku.png?raw=true)
+
+##### 运行程序
+
+确保Python和Node环境安装好后，在根目录打开cmd执行
+
+`pip install -r requirements.txt`
+
+待依赖安装完成后执行
+
+`python __init__.py`
+
+如果查询到有库存会在
+
+`log.txt`文件里出现相关信息

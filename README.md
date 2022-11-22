@@ -29,3 +29,5 @@ Python3  &  Node.js
 如果查询到有库存会在
 
 `log.txt`文件里出现相关信息
+
+![库存]](https://github.com/ctrlands/Giant-Escape/blob/main/img/%E5%BA%93%E5%AD%98.png?raw=true)

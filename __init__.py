@@ -136,7 +136,7 @@ def loopRequest(threadName, deplay, page, per_page):
                             txt1 = [time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
                                     store_name, '库存:', str(stock_num), ' 位置:', ls['addr1']]
                             x1 = ''.join(txt1)
-                            playAudio()
+                            # playAudio()
                             logRest(x1)
             else:
                 loop = True

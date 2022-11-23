@@ -205,7 +205,7 @@ def filePath(str):
     return path
 
 
-schedule.every(int(global_config.getRaw('config', 'loopTime'))).minutes.do(login)
+schedule.every(int(global_config.getRaw('config', 'looptime'))).minutes.do(login)
 
 if __name__ == '__main__':
     login()
